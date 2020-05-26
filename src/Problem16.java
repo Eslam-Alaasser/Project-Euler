@@ -14,10 +14,10 @@ public class Problem16 {
 		if (y == 1) {
 			return "2";
 		}else {
-			return multiple(pow(x, y-1),x);
+			return multiply(pow(x, y-1),x);
 		}
 	} 
-	public static String multiple(String v1, int x) {
+	public static String multiply(String v1, int x) {
 		String mul = "";
 		int val =0;
 		int d = 0;
